@@ -8,8 +8,8 @@ import java.util.ArrayList;
 /**
  * Created by android on 26/03/2018.
  */
-
-public class ListAnimals implements Parcelable {
+/* Clase ListAnimals para poder coger los del JSON */
+ public class ListAnimals implements Parcelable {
     ArrayList<Animals> detail= new ArrayList<>();
 
     public ListAnimals(ArrayList<Animals> detail) {
